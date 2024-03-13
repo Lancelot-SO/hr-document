@@ -1,0 +1,142 @@
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal__content {
+    display: flex;
+    width: 400px;
+    height: 420px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.modal__close {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.modal__close h1 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    line-height: 30px;
+
+}
+
+.modal__close span {
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #4091F7;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: fixed;
+    top: 180px;
+    right: 590px;
+}
+
+.file__title {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.file__title label {
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+input {
+    border: 1px solid transparent;
+    padding-left: 20px;
+}
+
+input:focus {
+    border: green;
+}
+
+.file__title input {
+    width: 336px;
+    height: 50px;
+    border-radius: 8px;
+    color: #0f1214;
+    background-color: #F6FAFD;
+    padding: 10px, 20px, 10px, 20px;
+}
+
+.upload__button {
+    width: 336px;
+    height: 150px;
+    background-color: #F6FAFD;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px dashed #F6FAFD;
+    justify-content: center;
+}
+
+.upload__button input {
+    display: none;
+}
+
+.upload__label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.upload__text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    font-size: 14px;
+    color: #0f1214;
+    user-select: none;
+    pointer-events: none;
+    margin-top: 5px;
+}
+
+.upload__texter {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    font-size: 10px;
+    color: #666;
+    pointer-events: none;
+}
