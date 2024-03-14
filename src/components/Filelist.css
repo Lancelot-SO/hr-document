@@ -1,5 +1,23 @@
 .filelist {
     overflow-y: scroll;
+    top: 64%;
+    left: 40%;
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    overflow: auto;
+    padding: 0;
+    list-style: none;
+}
+
+.filelist ul li {
+    max-width: 80%;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 2px;
+    background-color: #e6e3e3;
+    margin-top: 5px;
 }
 
 .filelist::-webkit-scrollbar {

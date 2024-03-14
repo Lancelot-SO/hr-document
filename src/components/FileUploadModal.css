@@ -90,7 +90,7 @@ input:focus {
 
 .upload__button {
     width: 336px;
-    height: 250px;
+    height: 350px;
     background-color: #F6FAFD;
     margin-top: 20px;
     display: flex;
@@ -114,11 +114,12 @@ input:focus {
     border: 1px solid #ccc;
     border-radius: 50%;
     cursor: pointer;
+    margin-bottom: 80px;
 }
 
 .upload__text {
     position: absolute;
-    top: 61%;
+    top: 59%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: inline-block;
@@ -131,7 +132,7 @@ input:focus {
 
 .upload__texter {
     position: absolute;
-    top: 64%;
+    top: 62%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: inline-block;
@@ -142,7 +143,7 @@ input:focus {
 
 .file__buttons {
     position: absolute;
-    top: 67%;
+    top: 76%;
     left: 39%;
     width: 20%;
     display: flex;
