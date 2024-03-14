@@ -3,7 +3,7 @@ import './Filelist.css'
 
 function FileList({ files }) {
     return (
-        <div>
+        <div className='filelist'>
             <h3>Selected Files:</h3>
             <ul>
                 {files.map((file, index) => (

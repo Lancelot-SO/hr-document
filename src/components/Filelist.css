@@ -1,0 +1,7 @@
+.filelist {
+    overflow-y: scroll;
+}
+
+.filelist::-webkit-scrollbar {
+    display: none;
+}

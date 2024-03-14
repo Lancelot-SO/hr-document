@@ -18,7 +18,7 @@
 .modal__content {
     display: flex;
     width: 400px;
-    height: 420px;
+    height: 500px;
     background: #fff;
     display: flex;
     flex-direction: column;
@@ -31,8 +31,6 @@
     display: flex;
     justify-content: space-between;
 }
-
-
 
 .modal__close h1 {
     margin-bottom: 20px;
@@ -55,7 +53,7 @@
     justify-content: center;
     cursor: pointer;
     position: fixed;
-    top: 180px;
+    top: 140px;
     right: 590px;
 }
 
@@ -92,7 +90,7 @@ input:focus {
 
 .upload__button {
     width: 336px;
-    height: 150px;
+    height: 250px;
     background-color: #F6FAFD;
     margin-top: 20px;
     display: flex;
@@ -100,6 +98,7 @@ input:focus {
     align-items: center;
     border: 1px dashed #F6FAFD;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 .upload__button input {
@@ -119,7 +118,7 @@ input:focus {
 
 .upload__text {
     position: absolute;
-    top: 60%;
+    top: 61%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: inline-block;
@@ -132,11 +131,45 @@ input:focus {
 
 .upload__texter {
     position: absolute;
-    top: 63%;
+    top: 64%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: inline-block;
-    font-size: 10px;
+    font-size: 8px;
     color: #666;
     pointer-events: none;
+}
+
+.file__buttons {
+    position: absolute;
+    top: 67%;
+    left: 39%;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cancel__upload {
+    background-color: transparent;
+    color: #0f1214;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.upload__btn {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 30px;
+    background-color: #4091F7;
+    padding: 10px;
+    width: 160px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
 }

@@ -33,6 +33,12 @@ const FileUploadModal = ({ onClose }) => {
                             <span className='upload__texter'>Supported formates: JPEG, PNG, GIF, MP4, PDF, PSD, AI, Word, PPT</span>
                         </label>
                         <input id="file-input" onChange={handleFileChange} type="file" />
+
+                        <div className='file__buttons'>
+                            <button type='button' className='cancel__upload'>Cancel</button>
+                            <span type='submit' className='upload__btn'>Upload</span>
+
+                        </div>
                     </div>
                     <Filelist files={files} />
 
